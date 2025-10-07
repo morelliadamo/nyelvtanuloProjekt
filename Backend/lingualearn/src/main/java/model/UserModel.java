@@ -5,6 +5,7 @@
 package model;
 import jakarta.persistence.Entity;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.apache.catalina.User;
 
@@ -18,46 +19,32 @@ import java.sql.Timestamp;
  */
 
 @Entity
+@Getter
+@Setter
+@NoArgsConstructor
 public class UserModel implements Serializable {
 
     //instance variables
     @Serial
     private static final long serialVersionUID = 1L;
 
-    @Getter
-    @Setter
+
     private Integer id;
 
-    @Getter
-    @Setter
     private String username;
 
-    @Getter
-    @Setter
     private String email;
 
-    @Getter
-    @Setter
     private String password_hash;
 
-    @Getter
-    @Setter
     private String role;
 
-    @Getter
-    @Setter
     private Timestamp created_at;
 
-    @Getter
-    @Setter
     private Timestamp deleted_at;
 
-    @Getter
-    @Setter
     private Timestamp last_login;
 
-    @Getter
-    @Setter
     private Boolean is_deleted;
     /* waiting for DB for other annotations... */
 
