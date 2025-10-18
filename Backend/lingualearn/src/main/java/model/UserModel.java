@@ -3,7 +3,12 @@ import java.io.Serial;
 import java.io.Serializable;
 import java.sql.Timestamp;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -17,27 +22,38 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
+@Table(name="users")
 public class UserModel implements Serializable {
 
     @Serial
     private static final long serialVersionUID = 1L;
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
+    @Column(name="username")
     private String username;
 
+    @Column(name="email")
     private String email;
 
+    @Column(name="password_hash")
     private String password_hash;
 
+    @Column(name="role")
     private String role;
 
+    @Column(name="created_at")
     private Timestamp created_at;
 
+    // @Column(name="deleted_at")
     private Timestamp deleted_at;
 
+    @Column(name="last_login")
     private Timestamp last_login;
 
+    // @Column(name="is_deleted")
     private Boolean is_deleted;
 
 
