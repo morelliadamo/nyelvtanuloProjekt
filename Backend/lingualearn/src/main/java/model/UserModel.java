@@ -1,17 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package model;
+import java.io.Serial;
+import java.io.Serializable;
+import java.sql.Timestamp;
+
 import jakarta.persistence.Entity;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.apache.catalina.User;
-
-import java.io.Serial;
-import java.io.Serializable;
-import java.sql.Timestamp;
 
 /**
  *
@@ -24,10 +19,8 @@ import java.sql.Timestamp;
 @NoArgsConstructor
 public class UserModel implements Serializable {
 
-    //instance variables
     @Serial
     private static final long serialVersionUID = 1L;
-
 
     private Integer id;
 
@@ -46,10 +39,9 @@ public class UserModel implements Serializable {
     private Timestamp last_login;
 
     private Boolean is_deleted;
-    /* waiting for DB for other annotations... */
 
 
-    //constructors
+
     public UserModel(Integer id, String username, String email, String password_hash, String role, Timestamp created_at, Timestamp deleted_at, Timestamp last_login, boolean is_deleted) {
         this.id = id;
         this.username = username;
