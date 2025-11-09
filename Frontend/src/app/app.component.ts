@@ -1,18 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { HeaderComponent } from './header/header.component';
-import { WelcomeDivComponent } from './welcome-div/welcome-div.component';
-import { CommonModule } from '@angular/common';
-import { CardComponent } from './card/card.component';
+import { HomepageComponent } from './homepage/homepage.component';
+import { RegisterPageComponent } from './register-page/register-page.component';
 @Component({
   selector: 'app-root',
-  imports: [
-    RouterOutlet,
-    HeaderComponent,
-    WelcomeDivComponent,
-    CommonModule,
-    CardComponent,
-  ],
+  imports: [RouterOutlet, HomepageComponent, RegisterPageComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
