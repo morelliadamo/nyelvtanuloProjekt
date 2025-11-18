@@ -1,34 +1,61 @@
 {
+<<<<<<< Updated upstream
   "hash": "550fdafd",
   "configHash": "93edb164",
   "lockfileHash": "b263e18e",
   "browserHash": "41344726",
+=======
+  "hash": "f6160be6",
+  "configHash": "488bfe57",
+  "lockfileHash": "7c960f9f",
+  "browserHash": "4a224163",
+>>>>>>> Stashed changes
   "optimized": {
     "@angular/core": {
       "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
+<<<<<<< Updated upstream
       "fileHash": "8baf21ee",
+=======
+      "fileHash": "f2a31581",
+>>>>>>> Stashed changes
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
+<<<<<<< Updated upstream
       "fileHash": "2575ae85",
+=======
+      "fileHash": "8c099a2a",
+>>>>>>> Stashed changes
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
+<<<<<<< Updated upstream
       "fileHash": "b0bcc2dc",
+=======
+      "fileHash": "d669aef2",
+>>>>>>> Stashed changes
       "needsInterop": false
     }
   },
   "chunks": {
+<<<<<<< Updated upstream
     "chunk-5TJLMSRM": {
       "file": "chunk-5TJLMSRM.js"
     },
     "chunk-KNHSTVT2": {
       "file": "chunk-KNHSTVT2.js"
+=======
+    "chunk-VFE7RCTK": {
+      "file": "chunk-VFE7RCTK.js"
+    },
+    "chunk-5T6PAE7P": {
+      "file": "chunk-5T6PAE7P.js"
+>>>>>>> Stashed changes
     }
   }
 }
