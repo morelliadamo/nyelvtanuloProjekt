@@ -1,21 +1,31 @@
 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   "hash": "550fdafd",
   "configHash": "93edb164",
   "lockfileHash": "b263e18e",
   "browserHash": "41344726",
 =======
+=======
+>>>>>>> Stashed changes
   "hash": "f6160be6",
   "configHash": "488bfe57",
   "lockfileHash": "7c960f9f",
   "browserHash": "4a224163",
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   "optimized": {
     "@angular/core": {
       "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "fileHash": "8baf21ee",
+=======
+      "fileHash": "f2a31581",
+>>>>>>> Stashed changes
 =======
       "fileHash": "f2a31581",
 >>>>>>> Stashed changes
@@ -25,7 +35,11 @@
       "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "fileHash": "2575ae85",
+=======
+      "fileHash": "8c099a2a",
+>>>>>>> Stashed changes
 =======
       "fileHash": "8c099a2a",
 >>>>>>> Stashed changes
@@ -35,7 +49,11 @@
       "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "fileHash": "b0bcc2dc",
+=======
+      "fileHash": "d669aef2",
+>>>>>>> Stashed changes
 =======
       "fileHash": "d669aef2",
 >>>>>>> Stashed changes
@@ -44,12 +62,15 @@
   },
   "chunks": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "chunk-5TJLMSRM": {
       "file": "chunk-5TJLMSRM.js"
     },
     "chunk-KNHSTVT2": {
       "file": "chunk-KNHSTVT2.js"
 =======
+=======
+>>>>>>> Stashed changes
     "chunk-VFE7RCTK": {
       "file": "chunk-VFE7RCTK.js"
     },
