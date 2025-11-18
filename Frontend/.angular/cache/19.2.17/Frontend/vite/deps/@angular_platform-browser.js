@@ -27,6 +27,7 @@ import {
   disableDebugTools,
   enableDebugTools,
   getDOM,
+  getDOM,
   platformBrowser,
   provideClientHydration,
   provideProtractorTestingSupport,
