@@ -1,15 +1,13 @@
 import {
-  Title
-} from "./chunk-4CCQPQHY.js";
-import {
   DOCUMENT,
   HashLocationStrategy,
   LOCATION_INITIALIZED,
   Location,
   LocationStrategy,
   PathLocationStrategy,
+  Title,
   ViewportScroller
-} from "./chunk-XQPTOUZP.js";
+} from "./chunk-5TJLMSRM.js";
 import {
   APP_BOOTSTRAP_LISTENER,
   ApplicationRef,
@@ -110,7 +108,7 @@ import {
   ɵɵloadQuery,
   ɵɵqueryRefresh,
   ɵɵsanitizeUrlOrResourceUrl
-} from "./chunk-5T6PAE7P.js";
+} from "./chunk-KNHSTVT2.js";
 
 // node_modules/@angular/router/fesm2022/router-Dwfin5Au.mjs
 var PRIMARY_OUTLET = "primary";
