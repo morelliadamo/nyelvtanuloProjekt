@@ -6,9 +6,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 
+import com.axis.lingualearn.model.UserModel;
+
 import jakarta.persistence.EntityManagerFactory;
 import javax.sql.DataSource;
-import model.UserModel;
 
 @Configuration
 @EntityScan(basePackageClasses = {UserModel.class})
