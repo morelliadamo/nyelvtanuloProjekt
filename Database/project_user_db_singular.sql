@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Nov 21, 2025 at 07:14 AM
+-- Generation Time: Nov 21, 2025 at 07:34 AM
 -- Server version: 5.7.24
 -- PHP Version: 8.1.0
 
@@ -70,9 +70,7 @@ CREATE DEFINER=`root`@`localhost` PROCEDURE `anonymize_user` (IN `p_id` INT)   B
   UPDATE login
   SET device_info = NULL, ip_address = NULL, session_token = NULL, expires_at = NULL, is_anonymized = 1, anonymized_at = NOW()
   WHERE user_id = p_id;
-
-  -- (Optional) purge any other PII fields in other tables if present (none in this schema)
-  -- Note: We keep foreign key relations intact for analytics/history as requested.
+  -- Note: We keep foreign key relations intact for analytics/history
 END$$
 
 CREATE DEFINER=`root`@`localhost` PROCEDURE `create_achievement` (IN `p_name` VARCHAR(255), IN `p_description` TEXT, IN `p_icon_url` VARCHAR(255))   BEGIN
