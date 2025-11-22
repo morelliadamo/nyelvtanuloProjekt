@@ -2,6 +2,7 @@ package com.tengelyhatalmak.languaforge.controller;
 
 import java.util.List;
 
+import com.tengelyhatalmak.languaforge.util.JWTUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -52,6 +53,7 @@ public class UserController {
         userService.deleteUserById(id);
         return "User with id " + id + " has been deleted";
     }
+
 
 
 
